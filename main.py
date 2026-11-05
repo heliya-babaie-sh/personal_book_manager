@@ -19,7 +19,12 @@ if admin_mode.lower() == "yes":
 books = load_books()
 count = int(input("how many books do you want? "))
 for i in range(count):
-    book = input("plaese enter a book`s name: ")
+    book_name = input("plaese enter a book`s name: ")
+    priority = input("enter priority(low/medium/high): ").lower()
+    book={
+        "name" : book_name,
+        "priority": priority
+    }
     books.append(book)
 
 show_books(books)

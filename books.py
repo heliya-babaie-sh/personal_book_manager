@@ -1,7 +1,7 @@
 import json
 def show_books(books):
     for book in books:
-        print(book)
+        print("name: ", book["name"], ", priority: ", book["priority"])
 
 
 def save_books(books):
