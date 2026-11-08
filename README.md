@@ -7,7 +7,13 @@ A simple  book manager built with  ![Static Badge](https://img.shields.io/badge/
 - Saves books
 - loads saved books
 - admin mode
+- set task priority
 
+## Task priority 
+Each task can have one of this priority levele:
+- low
+- medium
+- high
 
 ## Requirements
 - `python 3`
@@ -37,10 +43,10 @@ python main.py
 
 
 ## screen shot
-![personal_book_manager_screenshot](image\screenshot.png)
+![personal_book_manager_screenshot](image\Screenshot.png)
 
 ## Demo
-![personal_book_manager_demo](gift\demo.gif)
+![personal_book_manager_demo](\gift\demo.gif)
 
 
 ## File Description 
