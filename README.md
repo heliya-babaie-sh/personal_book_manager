@@ -22,7 +22,7 @@ Each task can have one of this priority levele:
 ## Installation
 install the required packages:
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Environment Setup
