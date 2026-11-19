@@ -6,7 +6,7 @@ load_dotenv()
 name = input("please enter your name: ")
 print("welcome", name)
 
-admin_mode = input("do you want to open admin mode? yes/no: ")
+admin_mode = input("do you know the admin mode code from program?yes/no: ")
 
 
 if admin_mode.lower() == "yes":
